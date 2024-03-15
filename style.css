@@ -1,0 +1,82 @@
+/* style.css */
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Set box-sizing to border-box for easier layout */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px; /* Set maximum width for content */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px; /* Add padding around content */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items evenly across the container */
+  align-items: center; /* Align items vertically */
+}
+
+.logo {
+  display: flex; /* Use flexbox for logo and text layout */
+  align-items: center; /* Align items vertically */
+}
+
+.logo img {
+  width: 50px; /* Set width for logo image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between logo image and text */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+}
+
+nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove default underline for links */
+  color: #333; /* Set text color for links */
+}
+
+.user-actions a {
+  padding: 8px 20px; /* Add padding to buttons */
+  border: 1px solid #333; /* Add border to buttons */
+  border-radius: 20px; /* Add border radius to buttons */
+  margin-left: 20px; /* Add spacing between buttons */
+  text-decoration: none; /* Remove default underline for links */
+  color: #333; /* Set text color for buttons */
+}
+
+.user-actions a:hover {
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+header {
+  background-color: #f8f9fa; /* Set background color for header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for header */
+  padding: 10px 0; /* Add padding to header */
+}
+
+.hero {
+  background-image: url("background.jpg"); /* Set background image for hero section */
+  background-size: cover; /* Cover the entire section with background image */
+  background-position: center; /* Center the background image */
+  color: #fff; /* Set text color for hero section */
+  text-align: center; /* Center align text */
+  padding: 100px 0; /* Add padding to top and bottom of hero section */
+}
+
+footer {
+  background-color: #333; /* Set background color for footer */
+  color: #fff; /* Set text color for footer */
+  text-align: center; /* Center align text */
+  padding: 20px 0; /* Add padding to top and bottom of footer */
+}
